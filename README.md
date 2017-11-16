@@ -30,36 +30,36 @@ PINOUT FOR THE STM32L432KC EVAL BOARD
 *******************************************************
 # :NAME         :CURRENT USE              :TEST BENCH
 *******************************************************
-1 :PA9          :PWM motor A1
-2 :PA10         :PWM motor A2
-3 :RST          :
-4 :GND          :GND
-5 :PA12         :Button 1 input
-6 :PB0          :encoder right A input
-7 :PB7          :Switch 2 input
-8 :PB6          :switch 1 input
-9 :PB1          :encoder right B input
-10:PC14         :
-11:PC15         :
-12:PA8          :PWM motor B1
-13:PA11         :PWM motor B2
-14:PB5          :encoder left B input
-15:PB4          :encoder left A input
-16:PB3          :
-17:3V3          :
-18:AREF         :
-19:PA0          :IR_BL
-20:PA1          :IR_FL
-21:PA3          :IR_M
-22:PA4          :IR_FR
-23:PA5          :IR_BR
-24:PA6          :LED 1
-25:PA7          :LED 2
-26:PA2          :LED 3
-27:5V           :Power input
-28:RST          :
-29:GND          :GND
-30:VIN          :
+1 :PA9          :PWM motor A1             :LED 1
+2 :PA10         :PWM motor A2             :LED 2
+3 :RST          :                         :
+4 :GND          :GND                      :GND
+5 :PA12         :Button 1 input           :Button 1
+6 :PB0          :encoder right A input    :Button 2
+7 :PB7          :Switch 2 input           :Switch 1
+8 :PB6          :switch 1 input           :Switch 2
+9 :PB1          :encoder right B input    :Button 3
+10:PC14         :                         :
+11:PC15         :                         :
+12:PA8          :PWM motor B1             :LED 3
+13:PA11         :PWM motor B2             :LED 4
+14:PB5          :encoder left B input     :Button 4
+15:PB4          :encoder left A input     :Button 5
+16:PB3          :                         :
+17:3V3          :                         :
+18:AREF         :                         :
+19:PA0          :IR_BL                    :Potentiometer 5
+20:PA1          :IR_FL                    :Potentiometer 4
+21:PA3          :IR_M                     :Potentiometer 3
+22:PA4          :IR_FR                    :Potentiometer 2
+23:PA5          :IR_BR                    :Potentiometer 1
+24:PA6          :LED 1                    :LED 6
+25:PA7          :LED 2                    :LED 5
+26:PA2          :LED 3                    : // NOTE: Is not connected, should be mapped to LED 7 
+27:5V           :Power input              :Power Rail
+28:RST          :                         :
+29:GND          :GND                      :
+30:VIN          :                         :
 
 
 ****************************************************************************************
